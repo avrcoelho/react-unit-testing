@@ -1,0 +1,25 @@
+{
+  "clearMocks": true,
+  "collectCoverage": true,
+  "testEnvironment": "jsdom",
+  "collectCoverageFrom": [
+    "<rootDir>/src/**/*.{ts,tsx}",
+    "!<rootDir>/src/main.tsx"
+  ],
+  "coverageDirectory": "coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0
+    }
+  },
+  "moduleNameMapper": {
+    "\\.scss$": "<rootDir>/node_modules/jest-css-modules",
+    "@/(.*)": "<rootDir>/src/$1"
+  },
+  "testMatch": ["<rootDir>/src/**/__tests__/**/*.spec.{ts,tsx}"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  }
+}
