@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  input {
+    height: 4rem;
+    flex: 1;
+
+    padding: 0 1rem;
+
+    border: solid 1px var(--medium-gray);
+    border-radius: 0.4rem;
+
+    &::placeholder {
+      color: var(--medium-gray)
+    }
+  }
+
+  button {
+    width: 6rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+
+    color: var(--text-color-white);
+    background-color: var(--btn-green-color);
+  }
+}

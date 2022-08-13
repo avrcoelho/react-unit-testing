@@ -1,0 +1,43 @@
+:root {
+  --btn-green-color: #2da44e;
+  --text-color-default: #404040;
+  --text-color-white: #fff;
+  --medium-gray: #B9B9B9;
+  --light-gray: #eee;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--text-color-default);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-size: 1.6rem;
+}
+
+button, input, textarea {
+  border: none;
+  background: transparent;
+  outline-color: var(--medium-gray);
+}
+
+button {
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+
+  margin-top: 2rem;
+
+  li {
+    height: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & + li {
+      border-top: solid 1px var(--light-gray)
+    }
+
+    button {
+      color: var(--medium-gray);
+    }
+  }
+}
